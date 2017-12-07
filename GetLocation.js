@@ -17,6 +17,7 @@ function ShowPosition(position){
 	}
 	document.write(JSON.stringify(latlng) + "<br>");
 	console.log(JSON.stringify(latlng));
+	alert(JSON.stringify(latlng));
 }
 
 function main(){
