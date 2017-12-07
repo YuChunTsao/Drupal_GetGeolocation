@@ -16,7 +16,7 @@ function ShowPosition(position){
 		"longitude":position.coords.longitude
 	}
 	document.write(JSON.stringify(latlng) + "<br>");
-	//console.log(JSON.stringify(latlng));
+	console.log(JSON.stringify(latlng));
 }
 
 function main(){
